@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 18px;
+    font-weight: 500;
+    color: #091747;
+    background-color: #f0f2f6; /* Your desired background color */
+}
+
+/* Additional selectors to ensure font is applied globally */
+h1, h2, h3, h4, h5, h6, p, div,  label, button, input, textarea, a, li {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500;
+
+}
