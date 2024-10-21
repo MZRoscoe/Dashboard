@@ -17,7 +17,7 @@ import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyA_pJlvIGwOI9d1C_AaIthvIXC6xZaIIVM"
+os.environ["GOOGLE_API_KEY"] = "AIzaSyDk02JGN-BaRk3vfrGLXOzr7gB8N4nkj8M"
 
 with open("assets/style.css") as css:
     st.markdown(f'<style>{css.read()}</style>', unsafe_allow_html=True)
